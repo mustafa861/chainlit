@@ -1,6 +1,5 @@
-def main():
-    print("Hello from chain-hello!")
+# def main():
+#     print("Hello from chainlit")
 
-
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
