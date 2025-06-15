@@ -13,9 +13,9 @@ provider = AsyncOpenAI(
     base_url="https://openrouter.ai/api/v1"
 )
 
-model=OpenAIChatCompletionsModel(
+model = OpenAIChatCompletionsModel(
     model="google/gemini-2.0-flash-exp:free",
-    openai_client=provider,
+    openai_client = provider,
 )
 
 run_config = RunConfig(
